@@ -184,7 +184,7 @@ void loadAllResources()
 // --- LOAD CURSORS ---
     rm.loadCursor("cursor_arrow", sf::Cursor::Arrow); // Con trỏ thường
     rm.loadCursor("cursor_hand",  sf::Cursor::Hand);  // Con trỏ bàn tay (khi hover)
-    rm.loadCursor("cursor_wait",  sf::Cursor::Wait);  // (Tùy chọn) Đồng hồ cát
+    rm.loadCursor("cursor_wait",  sf::Cursor::Wait);  // Đồng hồ cát
 
     std::cout << "Resources loaded successfully!" << std::endl;
 }
